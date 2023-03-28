@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "computatrum"
+version = "0.0.1"
+description = ""
+authors = ["Jacob Valdez <jacob.valdez@limboid.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.124"
+notify-py = "^0.3.42"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
