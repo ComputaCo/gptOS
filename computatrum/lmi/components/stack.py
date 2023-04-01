@@ -7,7 +7,7 @@ from computatrum.utils.truncation import truncate
 @attr.s(auto_attribs=True)
 class Stack(Component):
     children: list[Component] = []
-    separator: str = " --- "
+    separator: str = "\n"
     truncation_alignment: Alignment = Alignment.LEFT
 
     def render(self, size) -> str:

@@ -24,7 +24,8 @@ class Component:
     def render(self, size) -> str:
         pass
 
-    def saferender(component, size) -> str:
+    @classmethod
+    def saferender(cls, component, size) -> str:
         try:
             return component.render(size)
         except Exception as _:
