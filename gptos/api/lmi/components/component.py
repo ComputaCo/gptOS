@@ -4,7 +4,7 @@ from enum import Enum
 import attr
 from abc import abstractmethod
 
-from computatrum.primitives.alignment import Alignment
+from gptos.api.lmi.misc.alignment import Alignment
 
 
 @attr.s(auto_attribs=True)

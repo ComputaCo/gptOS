@@ -1,5 +1,5 @@
 import attr
-from computatrum.lmi.components.component import Component
+from gptos.api.lmi.components.component import Component
 from computatrum.primitives.alignment import Alignment
 from computatrum.utils.truncation import truncate
 

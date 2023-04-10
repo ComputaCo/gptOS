@@ -1,9 +1,9 @@
 import attr
 from abc import abstractmethod
 
-from computatrum.lmi.components.component import Component
-from computatrum.lmi.components.scrollable import Scrollable
-from computatrum.lmi.components.stack import Stack
+from gptos.api.lmi.components.component import Component
+from gptos.api.lmi.components.scrollable import Scrollable
+from gptos.api.lmi.components.stack import Stack
 
 
 @attr.s(auto_attribs=True)

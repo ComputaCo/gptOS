@@ -1,5 +1,5 @@
 from computatrum.apps.app import App
-from computatrum.lmi.windows.window import Window
+from gptos.api.lmi.windows.window import Window
 
 
 class SinglePageApp(Window, App):

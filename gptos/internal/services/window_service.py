@@ -2,8 +2,8 @@ from abc import abstractmethod
 from dataclasses import dataclass
 
 import attr
-from computatrum.lmi.components.component import Component
-from computatrum.lmi.windows.window import Window
+from gptos.api.lmi.components.component import Component
+from gptos.api.lmi.windows.window import Window
 from computatrum.primitives.screen import Screen
 
 from computatrum.services.base_service import Service

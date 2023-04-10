@@ -1,7 +1,7 @@
 import attr
 from abc import abstractmethod
 
-from computatrum.lmi.components.component import Component
+from gptos.api.lmi.components.component import Component
 
 
 @attr.s(auto_attribs=True)

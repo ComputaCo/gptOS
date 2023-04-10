@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "computatrum"
+name = "gptos"
 version = "0.0.1"
 description = ""
 authors = ["Jacob Valdez <jacob.valdez@limboid.ai>"]
 readme = "README.md"
+liscense = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"

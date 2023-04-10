@@ -1,6 +1,6 @@
 from abc import abstractmethod
 from dataclasses import dataclass
-from computatrum.lmi.components.component import Component
+from gptos.api.lmi.components.component import Component
 
 from computatrum.primitives.tool import Tool
 from computatrum.services.window_service import WindowService

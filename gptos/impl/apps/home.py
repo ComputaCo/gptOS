@@ -1,6 +1,6 @@
-from computatrum.lmi.components.scrollable import Scrollable
-from computatrum.lmi.components.stack import Stack
-from computatrum.lmi.components.text import Text
+from gptos.api.lmi.components.scrollable import Scrollable
+from gptos.api.lmi.components.stack import Stack
+from gptos.api.lmi.components.text import Text
 from computatrum.services.registry_service import RegistryService
 
 
