@@ -1,4 +1,4 @@
-from computatrum.primitives.embedding import Embedding
+from gptos.api.abc.embedding import Embedding
 from computatrum.services.llm_service import LLMService
 
 

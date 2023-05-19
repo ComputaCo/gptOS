@@ -4,12 +4,15 @@ version = "0.0.1"
 description = ""
 authors = ["Jacob Valdez <jacob.valdez@limboid.ai>"]
 readme = "README.md"
-liscense = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 langchain = "^0.0.124"
 notify-py = "^0.3.42"
+pydub = "^0.25.1"
+stringcase = "^1.2.0"
+moviepy = "^1.0.3"
+roman = "^4.0"
 
 
 [build-system]
