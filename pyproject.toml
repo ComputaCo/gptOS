@@ -1,9 +1,17 @@
 [tool.poetry]
-name = "gptos"
+name = "gptOS"
 version = "0.0.1"
-description = ""
-authors = ["Jacob Valdez <jacob.valdez@limboid.ai>"]
+description = "Operating system for LLMs."
+authors = [
+    "ComputaCo <hello@computaco.ai>",
+    "Jacob Valdez <jacob.valdez@computaco.ai>",
+]
 readme = "README.md"
+license = "MIT"
+homepage = "https://computaco.ai"
+repository = "https://github.com/ComputaCo/gptOS"
+keywords = ["lmi", "llm", "ai", "operating-system", "OS", "gptOS"]
+packages = [{ include = "gptOS" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
